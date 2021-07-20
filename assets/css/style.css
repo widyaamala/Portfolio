@@ -428,6 +428,18 @@ DEPENDENCIES
   }
 }
 
+@media (max-width: 488px) {
+  #hero {
+    background: #ffffff;
+  }
+}
+
+@media (max-width: 574px) {
+  #hero {
+    padding-left: 20px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -1056,6 +1068,28 @@ section {
   margin: 60px 0 15px 0;
 }
 
-#footer .credits {
+#footer .credits p {
   font-size: 13px;
+}
+
+@media (max-width: 488px) {
+  #footer {
+    background: #ffffff;
+  }
+}
+
+@media (max-width: 522px){
+  #footer h3 {
+    font-size: 24px;
+  }
+
+  #footer p{
+    font-size: 16px;
+  }
+
+  #footer .copyright {
+    font-size: 13px;
+    width: 80%;
+  }
+  
 }
